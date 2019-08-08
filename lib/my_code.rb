@@ -15,6 +15,9 @@
    total = ( yield total, array[i])
    i += 1
  end
+ if !total == 0 
+   return true
+ end
  return total
  end
 
