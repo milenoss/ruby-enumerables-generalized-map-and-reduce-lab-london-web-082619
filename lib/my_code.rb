@@ -9,7 +9,7 @@
   new = []
   i = 0
   while i < array.length do
-    new.push( yield |i| i * -1)
+    new.push( yield |i|)
   end
   return new
 end
