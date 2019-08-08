@@ -9,7 +9,7 @@
   new = []
   i = 0
   while i < array.length do
-    new.push( yield [i])
+    new.push( yield array.length[i])
   end
   return new
 end
