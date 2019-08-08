@@ -5,12 +5,11 @@
 #     expect(map([1, 2, 3, -9]){|n| n * -1}).to eq([-1, -2, -3, 9])
 #   end
 
- def map 
-  def map_to_negativize(source_array)
+ def map (array)
   new = []
   i = 0
-  while i < source_array.length do
-    new.push( yield(# what should we be yi
+  while i < array.length do
+    new.push( yield(array[i] *-1)
   end
   return new
 end
