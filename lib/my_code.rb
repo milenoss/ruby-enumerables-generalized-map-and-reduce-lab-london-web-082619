@@ -1,7 +1,12 @@
 # Your Code Here
-require "pry"
+
 
 def my_own_map(array)
-  array.map{|n|-1*n} 
+  new = []
+  i = 0
+  while i<array.length do
+    new << array[i]* -1
+    i +=1
+  end
+  return new
 end
-binding.pry
