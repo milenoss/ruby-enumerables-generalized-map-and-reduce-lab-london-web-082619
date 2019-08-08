@@ -9,7 +9,7 @@
   return new
  end
  
- def reduce(array = n, total = 0)
+ def reduce(array, total = 0)
  new = []
  i= 1
  while i< array.length do 
@@ -18,4 +18,5 @@
  end
  return new
  end
+ return total
  
