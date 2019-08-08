@@ -13,6 +13,7 @@
   end
   return new
  end
+ }
  
 
 def map(array)
