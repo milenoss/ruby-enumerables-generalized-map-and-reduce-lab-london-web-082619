@@ -9,7 +9,7 @@
   return new
  end
  
- def reduce(array)
+ def reduce(array, total)
  new = []
  i= 1
  while i< array.length do 
