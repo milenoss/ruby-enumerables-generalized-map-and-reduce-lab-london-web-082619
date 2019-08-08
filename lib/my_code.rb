@@ -6,5 +6,5 @@
 #   end
 
 def my_own_map (array)
-  base = ""
-end
+  yield = array.length * -1 
+  end
