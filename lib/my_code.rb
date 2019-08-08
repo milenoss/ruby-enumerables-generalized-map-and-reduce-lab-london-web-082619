@@ -9,8 +9,8 @@
   return new
  end
  
- def reduce(array, total)
- new = []
+ def reduce(array)
+ new = total
  i= 1
  while i< array.length do 
    new.push( yield array[i])
