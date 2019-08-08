@@ -5,3 +5,13 @@
 #     expect(map([1, 2, 3, -9]){|n| n * -1}).to eq([-1, -2, -3, 9])
 #   end
 
+def my_own_map
+    ary = []
+    
+    self.each do |n|-1*n
+      ary << yield(n)
+    end
+    
+    ary
+  end
+end
