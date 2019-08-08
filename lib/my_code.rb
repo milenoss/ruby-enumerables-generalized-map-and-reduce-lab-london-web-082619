@@ -5,7 +5,7 @@
 #     expect(map([1, 2, 3, -9]){|n| n * -1}).to eq([-1, -2, -3, 9])
 #   end
 
-def my_own_map
+def MyOwnmap
     ary = []
     return self.dup unless block_given?
     self.each do |n|-1*n
