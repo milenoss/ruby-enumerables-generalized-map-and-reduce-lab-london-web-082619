@@ -5,7 +5,3 @@
 #     expect(map([1, 2, 3, -9]){|n| n * -1}).to eq([-1, -2, -3, 9])
 #   end
 
-do |b| -1*b
-  arrray =[]
-  yield(array.length[] )
-end
