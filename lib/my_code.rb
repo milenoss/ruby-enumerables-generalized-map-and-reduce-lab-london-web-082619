@@ -5,9 +5,9 @@
 #     expect(map([1, 2, 3, -9]){|n| n * -1}).to eq([-1, -2, -3, 9])
 #   end
 
- def map(array)
- array.map{ |num| num * -1 }
- end
+ def map 
+  
+ }
  
 def map(array)
  array.map{ |num| num }
