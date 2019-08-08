@@ -11,10 +11,11 @@
   while i < array.length do
     new.push( yield array.length[i])
   end
+  }
   return new
-end
- }
+ end
  
+
 def map(array)
  array.map{ |num| num }
  end
