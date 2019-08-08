@@ -6,5 +6,6 @@
 #   end
 
 def my_own_map (array)
-  yield = array.length * -1 
+  yield = array.length
+  array{ |b| "#{array.length *-1"}
   end
