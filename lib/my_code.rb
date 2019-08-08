@@ -8,5 +8,5 @@
  def my_own_map(array)
   arr = []
   array.each { |i| arr << i * -1}
-  arr
+  yield arr
 end
