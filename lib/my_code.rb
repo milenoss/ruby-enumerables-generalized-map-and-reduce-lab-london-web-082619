@@ -6,5 +6,9 @@
 #   end
 
  def my_own_map(array)
+   array  = yield
+
+
+end
 
 end
