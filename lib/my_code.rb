@@ -13,7 +13,7 @@
  new = []
  i= 1
  while i< array.length do 
-   new.push.( yield array[i], sum = total)
+  sum = new.push.( yield array[i],total)
    i += 1
  end
  return new
