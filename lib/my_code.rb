@@ -11,7 +11,6 @@
   while i < array.length do
     new.push( yield array[i])
   end
-  }
   return new
  end
  
