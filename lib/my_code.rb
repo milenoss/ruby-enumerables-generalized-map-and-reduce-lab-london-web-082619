@@ -11,7 +11,7 @@
  
  def reduce(array)
  new = []
- i= 0 
+ i= 1
  while i< array.length do 
    new.push( yield array[i])
    i += 1
