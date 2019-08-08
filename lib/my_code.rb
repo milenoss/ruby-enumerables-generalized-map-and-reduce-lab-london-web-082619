@@ -6,7 +6,4 @@
 #   end
 
  def my_own_map(array)
-  arr = []
-  array.each { |i| arr << i * -1}
-  yield arr
-end
+ 
