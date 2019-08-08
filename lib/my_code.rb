@@ -18,5 +18,4 @@
  end
  return new
  end
- return total
- 
+
