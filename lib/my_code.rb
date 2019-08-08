@@ -14,4 +14,3 @@ def my_own_map
     
     ary
   end
-end
