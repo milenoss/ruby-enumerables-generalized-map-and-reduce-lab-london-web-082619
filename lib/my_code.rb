@@ -7,7 +7,7 @@
 
 def my_own_map
     ary = []
-    
+    return self.dup unless block_given?
     self.each do |n|-1*n
       ary << yield(n)
     end
