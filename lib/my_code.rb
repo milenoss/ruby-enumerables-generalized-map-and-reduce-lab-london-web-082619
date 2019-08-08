@@ -9,5 +9,6 @@
   return new
  end
  
- 
+ def reduce(array)
+   new []
 
