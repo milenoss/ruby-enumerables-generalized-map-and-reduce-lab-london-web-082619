@@ -6,7 +6,14 @@
 #   end
 
  def map 
-  
+  def map_to_negativize(source_array)
+  new = []
+  i = 0
+  while i < source_array.length do
+    new.push( yield(# what should we be yi
+  end
+  return new
+end
  }
  
 def map(array)
